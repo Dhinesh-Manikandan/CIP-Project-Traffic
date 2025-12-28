@@ -30,19 +30,21 @@ It includes:
    - Create a `docker-compose.yml` file with Kafka and Zookeeper configuration (if not already provided).  
    - Start Kafka and Zookeeper:
 
-
+```
 
 docker-compose up -d
+
+```
 
 
 
 - Verify Kafka is running:
 
-
+```
 
 docker ps
 
-
+```
 
 ---
 
@@ -50,19 +52,19 @@ docker ps
 
 Follow these steps to set up the project environment:
 
-### 1️⃣ Clone the project
+## 1️⃣ Clone the project
 
-
+```
 
 git clone [https://github.com/Dhinesh-Manikandan/CIP-Project.git](https://github.com/Dhinesh-Manikandan/CIP-Project.git)
 cd CIP-Project
 
+```
+
+## 2️⃣ Create Python virtual environment (Python 3.14.2)
 
 
-### 2️⃣ Create Python virtual environment (Python 3.14.2)
-
-
-
+```
 # Create virtual environment
 
 python -m venv venv
@@ -79,17 +81,17 @@ venv\Scripts\activate.bat
 
 source venv/bin/activate
 
+```
 
+## 3️⃣ Upgrade pip (optional but recommended)
 
-### 3️⃣ Upgrade pip (optional but recommended)
-
-
+```
 
 python -m pip install --upgrade pip
 
+```
 
-
-### 4️⃣ Install required Python packages
+## 4️⃣ Install required Python packages
 
 ```
 
@@ -112,7 +114,7 @@ pip install -r requirements.txt
 
 ## Running the Project
 
-### 1️⃣ Start Kafka Broker (Docker)
+## 1️⃣ Start Kafka Broker (Docker)
 
 ```
 
@@ -123,7 +125,7 @@ docker-compose up -d
 - This starts Kafka and Zookeeper in detached mode (`-d`).  
 - Ensure Kafka broker is accessible at `localhost:9092` or update the code accordingly.
 
-### 2️⃣ Run the Producer
+## 2️⃣ Run the Producer
 
 Open **terminal 1** and activate your virtual environment:
 
@@ -145,7 +147,7 @@ python producer.py
 
 - The producer reads CSV chunks and sends messages to the Kafka topic.  
 
-### 3️⃣ Run the Dask Consumer
+## 3️⃣ Run the Dask Consumer
 
 Open **terminal 2** and activate the **same virtual environment**:
 
