@@ -1,0 +1,24 @@
+# Core project dependencies
+pandas
+numpy
+kafka-python
+kagglehub
+PyYAML
+
+# Optional / supportive packages
+dask[complete]   # include only if your code uses Dask
+pyspark           # include only if your project uses Spark
+
+# Common supporting packages (latest compatible)
+certifi
+charset-normalizer
+colorama
+idna
+packaging
+python-dateutil
+pytz
+requests
+six
+tqdm
+tzdata
+urllib3
