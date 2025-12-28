@@ -1,0 +1,8 @@
+kafka:
+  bootstrap_servers: localhost:9092  # use Docker internal host
+  topic: traffic-data
+
+spark:
+  app_name: TrafficSparkStreaming
+  master_local: local[*]
+  master_cluster: spark://localhost:7077
