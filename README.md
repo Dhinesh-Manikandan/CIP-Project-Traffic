@@ -1,6 +1,4 @@
-Absolutely! Here's the **entire README in a single text block**, including all commands and code, ready to copy and paste directly:
 
-```
 # CIP Traffic Project
 
 This project simulates real-time processing of US traffic congestion data using Python, Kafka, and Dask.  
@@ -32,19 +30,19 @@ It includes:
    - Create a `docker-compose.yml` file with Kafka and Zookeeper configuration (if not already provided).  
    - Start Kafka and Zookeeper:
 
-```
+
 
 docker-compose up -d
 
-```
+
 
 - Verify Kafka is running:
 
-```
+
 
 docker ps
 
-```
+
 
 ---
 
@@ -54,16 +52,16 @@ Follow these steps to set up the project environment:
 
 ### 1️⃣ Clone the project
 
-```
+
 
 git clone [https://github.com/Dhinesh-Manikandan/CIP-Project.git](https://github.com/Dhinesh-Manikandan/CIP-Project.git)
 cd CIP-Project
 
-```
+
 
 ### 2️⃣ Create Python virtual environment (Python 3.14.2)
 
-```
+
 
 # Create virtual environment
 
@@ -81,15 +79,15 @@ venv\Scripts\activate.bat
 
 source venv/bin/activate
 
-```
+
 
 ### 3️⃣ Upgrade pip (optional but recommended)
 
-```
+
 
 python -m pip install --upgrade pip
 
-```
+
 
 ### 4️⃣ Install required Python packages
 
