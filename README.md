@@ -135,7 +135,7 @@ Follow these steps to set up the project environment:
 
 ```
 
-git clone [https://github.com/Dhinesh-Manikandan/CIP-Project.git](https://github.com/Dhinesh-Manikandan/CIP-Project.git)
+git clone https://github.com/Dhinesh-Manikandan/CIP-Project.git
 cd CIP-Project
 
 ```
