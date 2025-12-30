@@ -150,7 +150,7 @@ python -m venv venv
 ```
 #### Activate virtual environment (Windows PowerShell)
 ```
-venv\Scripts\Activate.ps1
+venv\Scripts\activate
 ```
 #### OR activate virtual environment (Windows Command Prompt)
 ```
