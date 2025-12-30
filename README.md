@@ -220,8 +220,7 @@ Run the producer script:
 
 ```
 
-python producer.py
-
+ python .\producer\kafka_producer.py
 ```
 
 - The producer reads CSV chunks and sends messages to the Kafka topic.  
