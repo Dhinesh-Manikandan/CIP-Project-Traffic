@@ -241,8 +241,7 @@ Run the consumer script:
 
 ```
 
-python consumer_dask.py
-
+python .\dask\dask_streaming.py
 ```
 
 - The Dask consumer processes messages from Kafka in parallel.  
